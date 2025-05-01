@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root {
+    --primary-color: #DC143C;
+}
+
+.red-btns {
+    @apply border-2 outline-none px-4 py-1 bg-[var(--primary-color)] text-white cursor-pointer hover:bg-white hover:text-[var(--primary-color)] border-[var(--primary-color)];
+}
+
+.white-btns {
+    @apply border-2 outline-none px-4 py-1 text-zinc-500 border-zinc-500 cursor-pointer hover:bg-zinc-500 hover:text-white transition-all;
+}
