@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+body {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.todolist-container::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+}
+
+.todolist-container::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.todolist-container::-webkit-scrollbar-thumb {
+    background: gray;
+}
